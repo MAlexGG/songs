@@ -9,7 +9,7 @@ ECMAScript 6 Exercises
 ***
 ## General Info
 
-This is an excercise for practice ECMAScript 6 features like map, filter, reduce and sort (It's mandatory to use them to manipulate arrays). It has empty functions that you should complete and run the tests, you can add parameters. It has a data file that contains songs information and your goal is to pass all tests, you don't have to show anything on the screen.
+This is an excercise for practice ECMAScript 6 features like map, filter, reduce, sort and ternary operators (It's mandatory to use them to manipulate arrays) for, forEach and if/else it's not allowed .It has empty functions that you should complete and run the tests, you can add parameters. It has a data file that contains songs information and your goal is to pass all tests, you don't have to show anything on the screen.
 
 ## Requirements
 Fork this repo into your Github account.
