@@ -48,7 +48,7 @@ Ejercicios de ECMAScript 6
 ***
 ## Información General
 
-Este es un ejercicio para practicar las funcionalidades de ECMAScript 6 tales como map, reduce, sort y condicionales ternarios (Su uso es obligatorio para manipular los arrays) las funcionalidades de for, forEach y if/else no están permitidas. Las funciones ya están declaradas y se deberá añadir el código y pasar los tests, está permitido añadir parámetros si se necesita. Existe un archivo deta.js que contiene un array de objetos con canciones y el objetivo del ejercicio es pasar todos los tests. No es necesario mostrar nada en pantalla.
+Este es un ejercicio para practicar las funcionalidades de ECMAScript 6 tales como map, filter, reduce, sort y condicionales ternarios (Su uso es obligatorio para manipular los arrays) las funcionalidades de for, forEach y if/else no están permitidas. Las funciones ya están declaradas y se deberá añadir el código y pasar los tests, está permitido añadir parámetros si se necesita. Existe un archivo deta.js que contiene un array de objetos con canciones y el objetivo del ejercicio es pasar todos los tests. No es necesario mostrar nada en pantalla.
 
 ## Requerimientos
 Hacer un fork de este repositorio en tu cuenta de Github.
