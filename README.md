@@ -10,7 +10,7 @@ ECMAScript 6 Exercises
 ***
 ## General Info
 
-This is an excercise for practice ECMAScript 6 features like map, filter, reduce, sort and ternary operators (It's mandatory to use them to manipulate arrays) for, forEach and if/else it's not allowed .It has empty functions that you should complete and run the tests, you can add parameters. It has a data file that contains songs information and your goal is to pass all tests, you don't have to show anything on the screen.
+This is an exercise for practice ECMAScript 6 features like map, filter, reduce, sort and ternary operators (It's mandatory to use them to manipulate arrays) for, forEach and if/else it's not allowed .It has empty functions that you should complete and run the tests, you can add parameters. It has a data file that contains songs information and your goal is to pass all tests, you don't have to show anything on the screen.
 
 ## Requirements
 Fork this repo into your Github account.
@@ -23,13 +23,13 @@ Use the tests/songs.test.js file to know exactly what you are asked to do but do
 
 ## Exercises
 
-1. Exercise 1: funtion getAllArtists() -> write the code that gets all artists into an array.
-2. Exercise 2: funtion getSongsFromArtist() -> return the objects that contains the song of a certain artist. 
-3. Exercise 3: funtion orderAlphabetically() ->  alphabetic order the array by title.
-4. Exercise 4: funtion orderByYear() -> order the array by year, ascending.
-5. Exercise 5: funtion songsByGenre() -> filter songs by a certain genre.
-6. Exercise 6: funtion minutsToSeconds() -> modify the duration of songs to seconds.
-7. Exercise 7: funtion getLongestSong() -> get the longest song.
+Exercise 1: funtion getAllArtists() -> write the code that gets all artists into an array.
+Exercise 2: funtion getSongsFromArtist() -> return the objects that contains the song of a certain artist. 
+Exercise 3: funtion orderAlphabetically() ->  alphabetic order the array by title.
+Exercise 4: funtion orderByYear() -> order the array by year, ascending.
+Exercise 5: funtion songsByGenre() -> filter songs by a certain genre.
+Exercise 6: funtion minutsToSeconds() -> modify the duration of songs to seconds.
+Exercise 7: funtion getLongestSong() -> get the longest song.
 
 
 
@@ -62,11 +62,11 @@ Usa el archivo tests/songs.test.js para saber exactamente lo que se te pide pero
 
 ## Ejercicios
 
-1. Ejercicio 1: función getAllArtists() -> escribe el código para obtener un array solo de artistas.
-2. Ejercicio 2: función getSongsFromArtist() -> retorna todo el objeto que contiene las canciones de un artista determinado.
-3. Ejercicio 3: función orderAlphabetically() -> ordena el array por título alfabéticamente.
-4. Ejercicio 4: función orderByYear() -> ordena el array por año en orden ascendente.
-5. Ejercicio 5: función songsByGenre() -> filtra las canciones por género determinado.
-6. Ejercicio 6: función minutsToSeconds() -> modifica la duración de las canciones a segundos.
-7. Ejercicio 7: función getLongestSong() -> obtiene la canción com mayor duración en segundos.
+Ejercicio 1: función getAllArtists() -> escribe el código para obtener un array solo de artistas.
+Ejercicio 2: función getSongsFromArtist() -> retorna todo el objeto que contiene las canciones de un artista determinado.
+Ejercicio 3: función orderAlphabetically() -> ordena el array por título alfabéticamente.
+Ejercicio 4: función orderByYear() -> ordena el array por año en orden ascendente.
+Ejercicio 5: función songsByGenre() -> filtra las canciones por género determinado.
+Ejercicio 6: función minutsToSeconds() -> modifica la duración de las canciones a segundos.
+Ejercicio 7: función getLongestSong() -> obtiene la canción com mayor duración en segundos.
 
