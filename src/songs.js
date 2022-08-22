@@ -25,7 +25,7 @@ function songsByGenre() {
     //Write your code here
 };
 
-//Exercise 6: Modify the duration of songs to minutes
+//Exercise 6: Modify the duration of songs to seconds
 function minutsToSeconds() {
     //Write your code here
 };

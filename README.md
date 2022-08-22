@@ -3,8 +3,9 @@ ECMAScript 6 Exercises
 
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Requirements](#technologies)
+2. [Requirements](#requirements)
 3. [Installation and run tests](#installation)
+4. [Exercises](#exercises)
 
 ***
 ## General Info
@@ -19,3 +20,53 @@ Fork this repo into your Github account.
 - npm test
 
 Use the tests/songs.test.js file to know exactly what you are asked to do but don't modify that file. Write your code in the src/song.js file.
+
+## Exercises
+
+1. Exercise 1: funtion getAllArtists() -> write the code that gets all artists into an array.
+2. Exercise 2: funtion getSongsFromArtist() -> return the objects that contains the song of a certain artist. 
+3. Exercise 3: funtion orderAlphabetically() ->  alphabetic order the array by title.
+4. Exercise 4: funtion orderByYear() -> order the array by year, ascending.
+5. Exercise 5: funtion songsByGenre() -> filter songs by a certain genre.
+6. Exercise 6: funtion minutsToSeconds() -> modify the duration of songs to seconds.
+7. Exercise 7: funtion getLongestSong() -> get the longest song.
+
+
+
+======================
+
+
+Ejercicios de ECMAScript 6 
+==========================
+
+## Tabla de Contenidos
+1. [Información General](#información-general)
+2. [Requerimientos](#requerimientos)
+3. [Instalación y tests](#instalación-y-tests)
+4. [Ejercicios](#ejercicios)
+
+***
+## Información General
+
+Este es un ejercicio para practicar las funcionalidades de ECMAScript 6 tales como map, reduce, sort y condicionales ternarios (Su uso es obligatorio para manipular los arrays) las funcionalidades de for, forEach y if/else no están permitidas. Las funciones ya están declaradas y se deberá añadir el código y pasar los tests, está permitido añadir parámetros si se necesita. Existe un archivo deta.js que contiene un array de objetos con canciones y el objetivo del ejercicio es pasar todos los tests. No es necesario mostrar nada en pantalla.
+
+## Requerimientos
+Hacer un fork de este repositorio en tu cuenta de Github.
+
+## Installation y tests
+- npm install
+- npm test
+
+Clona tu repo en tu visual studio code e instala node (npm install), corre los tests (npm test) para mirar lo que está fallando.
+Usa el archivo tests/songs.test.js para saber exactamente lo que se te pide pero no puedes modificar este archivo. Escribe tu código en el archivo src/song.js file.
+
+## Ejercicios
+
+1. Ejercicio 1: función getAllArtists() -> escribe el código para obtener un array solo de artistas.
+2. Ejercicio 2: función getSongsFromArtist() -> retorna todo el objeto que contiene las canciones de un artista determinado.
+3. Ejercicio 3: función orderAlphabetically() -> ordena el array por título alfabéticamente.
+4. Ejercicio 4: función orderByYear() -> ordena el array por año en orden ascendente.
+5. Ejercicio 5: función songsByGenre() -> filtra las canciones por género determinado.
+6. Ejercicio 6: función minutsToSeconds() -> modifica la duración de las canciones a segundos.
+7. Ejercicio 7: función getLongestSong() -> obtiene la canción com mayor duración en segundos.
+
