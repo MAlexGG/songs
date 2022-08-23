@@ -23,7 +23,7 @@ Use the tests/songs.test.js file to know exactly what you are asked to do but do
 
 ## Exercises
 
-- Exercise 1: funtion getAllArtists() -> write the code that gets all artists into an array.
+- Exercise 1: function getAllArtists() -> write the code that gets all artists into an array.
 - Exercise 2: function getSongsFromArtist() -> return the objects that contains the song of a certain artist. 
 - Exercise 3: function orderAlphabetically() ->  alphabetic order the array by title.
 - Exercise 4: function orderByYear() -> order the array by year, ascending.
