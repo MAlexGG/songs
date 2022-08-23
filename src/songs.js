@@ -35,6 +35,12 @@ function getLongestSong(){
     //Write your code here
 };
 
+function getShortestSong(){
+
+};
+
+
+
 if(typeof module !== 'undefined') {
     module.exports = {
         getAllArtists,
@@ -43,6 +49,7 @@ if(typeof module !== 'undefined') {
         orderByYear,
         songsByGenre,
         minutsToSeconds,
-        getLongestSong
-    }
-}
+        getLongestSong,
+        getShortestSong
+    };
+};

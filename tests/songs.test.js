@@ -6,7 +6,8 @@ const {
     orderByYear,
     songsByGenre,
     minutsToSeconds,
-    getLongestSong
+    getLongestSong,
+    getShortestSong
 } = require('../src/songs');
 
 //Exercice 1
@@ -296,6 +297,9 @@ describe('function "getLongestSong"', () => {
     it('should return an array', () => {
         expect(getLongestSong(songs) instanceof Array).toBe(true);
     });
+    it('should return a new array, not update the original one', () => {
+        expect(getLongestSong(songs)).not.toEqual(songs);
+    });
     //Bug in review
     /* it('should return an array of songs with duration as a number', () => {
         expect(typeof getLongestSong(songs)[0].duration).toBe('number');
@@ -318,6 +322,39 @@ describe('function "getLongestSong"', () => {
         expect(getLongestSong(arr)).toEqual([
             { title: "Lust For Life", duration: 312 },
             { title: "Enjoy", duration: 312 }
+        ]);
+    });
+});
+
+//Exercise 8
+describe('function "getShortestSong"', () => {
+    it('should be declared', () => {
+        expect(typeof getShortestSong).toBe('function');
+    });
+    it('should return an array', () => {
+        expect(getShortestSong(songs) instanceof Array).toBe(true);
+    });
+    it('should return a new array, not update the original one', () => {
+        expect(getShortestSong(songs)).not.toEqual(songs);
+    });
+    it('should return an array of songs with the shortest song', () => {
+        const arr = [
+            { title: "Fight For Your Right To Party", duration: "3min 29sec" },
+            { title: "Do the Evolution", duration: "3min 45sec" }
+        ];
+        expect(getShortestSong(arr)).toEqual([
+            { title: "Fight For Your Right To Party", duration: 209 }
+        ]);
+    });
+    it('should return an array of objects that share the same duration', () => {
+        const arr = [
+            { title: "Fight For Your Right To Party", duration: "3min 29sec" },
+            { title: "Do the Evolution", duration: "3min 29sec" },
+            { title: "Pigs (Three different Ones)", duration: "11min 27sec" }
+        ];
+        expect(getShortestSong(arr)).toEqual([
+            { title: "Fight For Your Right To Party", duration: 209 },
+            { title: "Do the Evolution", duration: 209 }
         ]);
     });
 });

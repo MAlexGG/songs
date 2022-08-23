@@ -30,6 +30,7 @@ Use the tests/songs.test.js file to know exactly what you are asked to do but do
 - Exercise 5: funtion songsByGenre() -> filter songs by a certain genre.
 - Exercise 6: funtion minutsToSeconds() -> modify the duration of songs to seconds.
 - Exercise 7: funtion getLongestSong() -> get the longest song.
+- Exercise 8: function getShortestSong() -> get the shortest song.
 
 
 
@@ -68,5 +69,6 @@ Usa el archivo tests/songs.test.js para saber exactamente lo que se te pide pero
 - Ejercicio 4: función orderByYear() -> ordena el array por año en orden ascendente.
 - Ejercicio 5: función songsByGenre() -> filtra las canciones por género determinado.
 - Ejercicio 6: función minutsToSeconds() -> modifica la duración de las canciones a segundos.
-- Ejercicio 7: función getLongestSong() -> obtiene la canción com mayor duración en segundos.
+- Ejercicio 7: función getLongestSong() -> obtiene la canción con mayor duración en segundos.
+- Ejercicio 8: función getShortestSong() -> obtiene la canción con menor duración en segundos.
 
