@@ -35,8 +35,9 @@ function getLongestSong(){
     //Write your code here
 };
 
+//Exercise 8: Get the shortest song
 function getShortestSong(){
-
+    //Write your code here
 };
 
 
