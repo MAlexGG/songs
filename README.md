@@ -24,12 +24,12 @@ Use the tests/songs.test.js file to know exactly what you are asked to do but do
 ## Exercises
 
 - Exercise 1: funtion getAllArtists() -> write the code that gets all artists into an array.
-- Exercise 2: funtion getSongsFromArtist() -> return the objects that contains the song of a certain artist. 
-- Exercise 3: funtion orderAlphabetically() ->  alphabetic order the array by title.
-- Exercise 4: funtion orderByYear() -> order the array by year, ascending.
-- Exercise 5: funtion songsByGenre() -> filter songs by a certain genre.
-- Exercise 6: funtion minutsToSeconds() -> modify the duration of songs to seconds.
-- Exercise 7: funtion getLongestSong() -> get the longest song.
+- Exercise 2: function getSongsFromArtist() -> return the objects that contains the song of a certain artist. 
+- Exercise 3: function orderAlphabetically() ->  alphabetic order the array by title.
+- Exercise 4: function orderByYear() -> order the array by year, ascending.
+- Exercise 5: function songsByGenre() -> filter songs by a certain genre.
+- Exercise 6: function minutsToSeconds() -> modify the duration of songs to seconds.
+- Exercise 7: function getLongestSong() -> get the longest song.
 - Exercise 8: function getShortestSong() -> get the shortest song.
 
 
