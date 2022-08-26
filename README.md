@@ -1,4 +1,4 @@
-ECMAScript 6 Exercises
+:musical_score: ECMAScript 6 Exercises
 ======================
 
 ## Table of Contents
