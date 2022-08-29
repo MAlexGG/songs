@@ -36,9 +36,8 @@ function getLongestSong(){
 };
 
 //Exercise 8: Get the shortest song
-function getShortestSong(){
-    //Write your code here
-};
+//Write the getShortestSong() function
+
 
 
 
@@ -50,7 +49,6 @@ if(typeof module !== 'undefined') {
         orderByYear,
         songsByGenre,
         minutsToSeconds,
-        getLongestSong,
-        getShortestSong
+        getLongestSong
     };
 };
