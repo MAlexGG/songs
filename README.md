@@ -1,4 +1,4 @@
-ECMAScript 6 Exercises
+:musical_score: ECMAScript 6 Exercises
 ======================
 
 ## Table of Contents
@@ -33,11 +33,10 @@ Use the tests/songs.test.js file to know exactly what you are asked to do but do
 - Exercise 8: function getShortestSong() -> get the shortest song. Write the test and function. 
 
 
-
 ***
 
 
-Ejercicios de ECMAScript 6 
+:musical_score: Ejercicios de ECMAScript 6 
 ==========================
 
 ## Tabla de Contenidos
