@@ -1,6 +1,6 @@
 //Exercise 1: Get the array of all Artists.
 function getAllArtists(array){
-    let result = '???';
+    let result = '???'
     //console.log("Exercise 1 ->", result);
     return result;
 };
@@ -38,17 +38,4 @@ function getLongestSong(){
 //Exercise 8: Get the shortest song
 //Write the getShortestSong() function
 
-
-
-
-if(typeof module !== 'undefined') {
-    module.exports = {
-        getAllArtists,
-        getSongsFromArtist,
-        orderAlphabetically,
-        orderByYear,
-        songsByGenre,
-        minutsToSeconds,
-        getLongestSong
-    };
-};
+export { getAllArtists, getSongsFromArtist, orderAlphabetically, orderByYear, songsByGenre, minutsToSeconds, getLongestSong };

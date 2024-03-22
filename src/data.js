@@ -1,4 +1,4 @@
-const songs = [
+export const songs = [
     {
         title: "Highway To Hell",
         year: 1979,
@@ -1208,7 +1208,3 @@ const songs = [
         genre: ["Jazz", "Funk", "Pop"]
     }
 ];
-
-if(typeof module !== 'undefined'){
-    module.exports = songs;
-}

@@ -1,13 +1,6 @@
-const songs = require('../src/data');
-const {
-    getAllArtists,
-    getSongsFromArtist,
-    orderAlphabetically,
-    orderByYear,
-    songsByGenre,
-    minutsToSeconds,
-    getLongestSong
-} = require('../src/songs');
+import { songs } from '../src/data'; 
+import { getAllArtists, getSongsFromArtist, orderAlphabetically, orderByYear, songsByGenre, minutsToSeconds, getLongestSong } from '../src/songs';
+
 
 //Exercice 1
 describe('function "get all artists"', () => {
